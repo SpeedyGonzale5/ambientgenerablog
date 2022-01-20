@@ -1,0 +1,166 @@
+
+/* style for the navigation bar*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 3 px;
+    background-color:black;
+    width: 100%;
+    top:0%;
+    /* Keeps the nav bar fixed*/
+    position: fixed;
+    overflow: hidden;
+}
+
+li{
+    float:left;
+    width:20%;
+    margin: 0;
+    padding: 0;
+    }
+
+li a{
+    float: left;
+    color: white;
+    font-size: 17px;
+    padding: 14 px 0px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+li a:hover{
+    color:#E5FFE5;
+    background-color: darkslategray;
+}
+
+/*body styling */
+body {
+    background-color: #89A6BC;
+    margin: 0;
+    padding: 0;
+    color:#E5FFE5;
+}
+
+/*text styling*/
+h1{
+    text-align: center;
+}
+
+/* first image*/
+.image1{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    width:75%;
+    color: whitesmoke;
+}
+.image1att{
+    font-size: 0.9em; 
+    font-style: italic;
+    display: block;
+    text-align: center;
+    color: purple;
+}
+/* adding padding to text */
+ p, h2,a, {
+     margin: 12px;
+     padding: 12px;
+ }
+
+ p{
+    font-family:Helvetica;
+    color:AliceBlue;
+     text-align:left;
+     max-width: 3000px;
+     max-height:500px;
+    }
+ 
+ /* second image*/
+.image2{
+    display:block;
+    float: left;
+    margin-left:auto;
+    margin-right: 25px;
+    width:75%;
+    padding-left: 20px;
+}
+.image2att{
+    font-size: 0.9em; 
+    font-style: italic;
+    display: block;
+    text-align: left;
+    color: purple;
+    float:left;
+}
+
+/*imagegallery */
+
+div.gallery {
+    margin: 60px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 150pt;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  /*
+.image3{
+    display:block;
+    float: left;
+    margin-left:auto;
+    margin-right: 25px;
+    width:75%;
+}
+.image3att{
+    font-size: 0.9em; 
+    font-style: italic;
+    display: block;
+    text-align: center;
+    color: purple;
+    /*try to do image gallery*/
+    
+
+
+ /* making links turn white when you hover over them */
+ a:hover {
+     color:white;
+ }
+
+ /*format for references display alongside text*/
+ a.reference{
+     display:inline
+ }
+
+/*Artist Buttons Formatting*/
+ .button{
+    background-color: #AA699E;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float:center;
+ }
+ 
+ .references{
+     float:center
+ }
+ 
